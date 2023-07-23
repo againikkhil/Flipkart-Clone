@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+:root {
+    --main-bg-color: #2455f4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* height: 56px; */
+    background: var(--main-bg-color);
+    border: 2px solid red;
+    font-family: 'Hubballi', cursive;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li a:hover {
+    color: rgba(96, 147, 33, 0.619);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 -1px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Hubballi', cursive;
+    font-weight: 700;
+
+}
+
+.slider {
+    /* display: flex; */
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    /* align-items: center; */
+
+}
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2 {
+    font-family: 'Hubballi', cursive;
+    
+}
+
+.container {
+    min-height: 23px;
+}
+
+footer {
+    height: 23px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Hubballi', cursive;
+}
